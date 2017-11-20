@@ -1,0 +1,108 @@
+
+body{
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.h2, h2{
+    font-weight: bold !important;
+    text-align: left;
+}
+
+a {
+    width: 75%;
+    border-radius:0;
+}
+
+
+#hero{
+    padding: 15px 0px 15px 0px;
+}
+
+.hed {
+
+}
+
+.sec {
+    background: #d1e1fc;
+    font-weight: bold;
+}
+
+.brand{
+
+}
+
+.number{
+    padding-top: 1em;
+}
+
+.social{
+    width: 80%;
+}
+
+.prize{
+    font-size: 30px;
+    padding-top: 1em;
+    color: #175fd8;
+    max-height: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.btn{
+    padding-top: 1em;
+}
+
+.number1{
+    display: none;
+}
+
+@media (max-width: 760px) {
+
+    .h4, h4 {
+        font-size: 15px;
+    }
+
+    .hed {
+        display: none;
+    }
+
+    .col-sm-3.col-2 {
+        width: 30%;
+        float: left;
+        font-size: 2em;
+    }
+
+    .social{
+        width: 80%;
+    }
+
+
+    .btn .btn-primary{
+        width: 110%;
+    }
+
+    .number{
+        display: none;
+    }
+
+    .number1{
+        display: block;
+        margin: auto;
+
+    }
+
+    .col-sm-3.col-2.number1{
+        display: block;
+        width: 100%;
+        position: relative;
+        float: left;
+    }
+
+}
+
+
